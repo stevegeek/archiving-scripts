@@ -1,0 +1,10 @@
+# List of things to backup, each becomes an encrypted archive files
+BACKUP_TARGETS="/path/to/dir,/path/to/another"
+# Where to store the backup archives
+BACKUPS_ARCHIVE_LOCATION="/local/path/to/archives"
+BACKUPS_ARCHIVE_PASSWORD=""
+
+# AWS S3 configuration
+S3_BUCKET_NAME=""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
